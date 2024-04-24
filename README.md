@@ -26,3 +26,10 @@ Adopted from [flowsam](https://github.com/Jyxarthur/flowsam) and segment anythin
     ```
     python flowsam/evaluation.py --model=flowpsam --dataset=example --flow_gaps=1,-1,2,-2     --max_obj=10 --num_gridside=20 --ckpt_path=checkpoints/frame_level_flowpsam_vitbvith_train_on_oclrsyn_dvs16.pth --save_path=./results
     ```
+
+
+## Notes
+The main aim for testing the playground was to determine whether it is usable for segementation on realtime video. 
+
+However, the processing inference occurs from saved frames on the local file.
+This therefore, limits the ability for my application in the real-time segemntation.
