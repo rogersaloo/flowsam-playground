@@ -1,0 +1,4 @@
+einops==0.7.0
+opencv-python==4.9.0.80
+pillow==10.2.0
+tensorboardX==2.6.2.2
